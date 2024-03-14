@@ -1,4 +1,5 @@
 FROM node:9-alpine
+ENV NAME tatiana dara
 WORKDIR /src
 COPY app/ .
 RUN npm install --quiet
