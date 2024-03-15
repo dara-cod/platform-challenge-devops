@@ -7,8 +7,7 @@ provider "aws" {
 resource "aws_instance" "ubuntu_dara" {
   ami           = var.ami
   instance_type = var.instance_type
-  subnet_id     = var.subnet_id
-  
+    
   # Associa a instância ao grupo de segurança definido abaixo
   vpc_security_group_ids = [aws_security_group.instance_sg.id]
 

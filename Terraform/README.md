@@ -1,25 +1,3 @@
-# Terraform
-
-Recursos de infraestrutura em nuvem devem sempre ser criados utilizando gerenciadores de configuração, tais como Cloudformation, Terraform ou Ansible, garantindo que todo recurso possa ser versionado e recriado de forma facilitada.
-
-# Objetivo
-
-- Criar uma instância Linux utilizando Terraform.
-- A instância deve ter aberta somente às portas 80 e 443 para todos os endereços.
-- A porta SSH (22) deve estar acessível somente para um range IP definido.
-- Inputs: A execução do projeto deve aceitar dois parâmetros:
-  - O IP ou range necessário para a liberação da porta SSH
-  - A região da cloud em que será provisionada a instância
-
-- Outputs: A execução deve imprimir o IP público da instância
-
-# Notas
-
-- Todos os recursos devem ser criados utilizando os créditos gratuitos da AWS.
-- Não esquecer de destruir os recursos após criação e testes do desafio para não haver cobranças ou esgotamento dos créditos.
-
----------------------------------------------------------------------------------------------
-
 
 **Documentação Desafio - Terraform**
 
@@ -37,7 +15,7 @@ Passo 2: Utilizei a versão ubuntu para execução do desafio;
 
 Passo 3: Instalei o VSCODE e instalei algumas extensão para facilitar meu trabalho;
 
-Passo 4: Instalei o git;
+Passo 4: Instalei e configurei o git;
 
 Passo 5: Clonei o repositório para o VSCODE;
 
@@ -47,32 +25,39 @@ Passo 7: Instalei uma extensão do terraform para facilitar meu trabalho;
   
 # Bloco 2 - Execução do desafio:
 
-  Passo 1: 
+ Passo 1: Criação do arquivo `main.ft;`
 
- - Fooooa 
+ Passo 2: Pesquisei no site oficial do terraform.io os parâmetros para criação do `main.tf`
 
- - Se
+Passo 3: Criei o arquivo `terraform.tfvars` para informar os valores das variáveis. 
 
+Passo 4: Criei um arquivo `variable.tf` para informar as variáveis que o arquivo `main.tf` irá usar.
 
-Passo 2: #
+ - [ ] Boas práticas: 
+	 - Declarei as variáveis no arquivo `main.tf;` que estão descritas no `terraform.tfvars`
+	 
+	 - Criei o arquivo `.gitignore` para ignorar algumas extensões utilizadas no terraform; 
 
-Passo 3: #
-
-Passo 4: #
+	 - Incluir no arquivo `main.tf` tags de identificação;
 
 Passo 5: Desafio concluído.
  
 # Bloco 3 - Modo de execução:
 
-Passo 1: #
+Passo 1: Realize um git clone no repositório; 
 
-Passo 2: #
+Passo 2: Navegue até a pasta onde está o arquivo `main.tf`
 
-Passo 3: #
+Passo 3: Informe as credenciais através do comando: 
 
-Passo 4: #
+    export AWS_ACCESS_KEY_ID="CHAVE"
+    export AWS_SECRET_ACCESS_KEY="CHAVE SECRETA"
 
-Passo 5: #
+Passo 4: Execute o comando `terraform init`
+
+Passo 5: Execute o comando `terraform apply -var="ssh_cidr_range="SEU IP/MASCARA DE REDE" -var="region=REGIAOAWS"`
+
+Passo 6: Instância criada;
 
 
 # Fontes de pequisa:
@@ -87,4 +72,9 @@ https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 
 https://www.youtube.com/watch?v=r11veZ_Hwgo
 
+https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build
+
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance
+
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 
