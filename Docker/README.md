@@ -10,9 +10,14 @@ Versão 1.0
 # Bloco 1 - Configurando o ambiente:
   
 Passo 1: Utilizei uma VM que já estava instalada e configurada no meu desktop;
+
+
 Passo 2: Utilizei a versão ubuntu para execução do desafio;
+
 Passo 3: Instalei o VSCODE e instalei algumas extensão para facilitar meu trabalho;
+
 Passo 4: Instalei o git;
+
 Passo 5: Clonei o repositório para o VSCODE;
   
 # Bloco 2 - Execução do desafio:
@@ -23,9 +28,12 @@ Passo 5: Clonei o repositório para o VSCODE;
  - Sendo assim ao executar o container ele irá substituir automaticamente os paramentos informados no arquivo "dockerfile"
 
 
-Passo 2: Criei o script para execução "star.sh"
-Passo 3: Dei permissão de execução ao arquivo "star.sh" - (chmod +x star.sh)
-Passo 4: Realizei o teste através do http://localhost:3000/
+Passo 2: Criei o script para execução "star.sh";
+
+Passo 3: Dei permissão de execução ao arquivo "star.sh" - (chmod +x star.sh);
+
+Passo 4: Realizei o teste através do http://localhost:3000/;
+
 Passo 5: Desafio concluído.
  
 
