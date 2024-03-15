@@ -28,14 +28,26 @@ Passo 5: Clonei o repositório para o VSCODE;
  - Sendo assim ao executar o container ele irá substituir automaticamente os paramentos informados no arquivo "dockerfile"
 
 
-Passo 2: Criei o script para execução "star.sh";
+Passo 2: Criei o script para execução "start.sh";
 
-Passo 3: Dei permissão de execução ao arquivo "star.sh" - (chmod +x star.sh);
+Passo 3: Dei permissão de execução ao arquivo "start.sh" - (chmod +x start.sh);
 
 Passo 4: Realizei o teste através do http://localhost:3000/;
 
 Passo 5: Desafio concluído.
  
+# Bloco 3 - Modo de execução:
+
+Passo 1: Realize um git clone do repositório; 
+
+Passo 2: Navegue até a pasta docker: `cd Docker/`
+
+Passo 3: Dar permissão de execução ao arquivo "start.sh" - `chmod +x start.sh`;
+
+Passo 4: Execute o comando `./start.sh`
+
+Passo 5: Teste http://localhost:3000/
+
 
 # Fontes de pequisa:
 
