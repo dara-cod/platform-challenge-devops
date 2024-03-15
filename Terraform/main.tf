@@ -8,7 +8,7 @@ resource "aws_instance" "ubuntu_dara" {
   ami           = var.ami
   instance_type = var.instance_type
     
-  # Associa a instância ao grupo de segurança definido abaixo
+  # Associa a instância ao grupo de segurança
   vpc_security_group_ids = [aws_security_group.instance_sg.id]
 
   tags = {
@@ -39,7 +39,7 @@ resource "aws_security_group" "instance_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-  # Regra para permitir tráfego SSH (porta 22) apenas para o IP ou range especificado
+  # Regra para permitir tráfego SSH (porta 22) apenas para o IP ou range definido
   ingress {
     from_port   = 22
     to_port     = 22
