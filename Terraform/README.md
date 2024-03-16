@@ -55,10 +55,13 @@ Passo 3: Informe as credenciais através do comando:
 
 Passo 4: Execute o comando `terraform init`
 
-Passo 5: Execute o comando `terraform apply -var="ssh_cidr_range="SEU IP/MASCARA DE REDE" -var="region=REGIAOAWS"`
+Passo 5: Execute o comando `terraform plan` para analisar o que será criado
+
+Passo 6: Execute o comando `terraform apply` 
 
 Passo 6: Instância criada;
 
+ - [ ] **Observação:** Você deve criar um usuário na ***AWS IAM*** para informar a chave no parâmetro acima.  
 
 # Fontes de pequisa:
 
@@ -77,4 +80,3 @@ https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build
 https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance
 
 https://registry.terraform.io/providers/hashicorp/aws/latest/docs
-
