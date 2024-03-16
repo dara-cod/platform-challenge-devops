@@ -23,9 +23,9 @@ Passo 5: Clonei o repositório para o VSCODE;
 
  Passo 1: Incluir a variável "ENV NAME tatiana dara" no arquivo "dockerfile"
 
- - Fiz isso porque no arquivo app.js foi setado o paramento ENV e o paramento NAME.
+ - Fiz isso porque no arquivo app.js foi setado o parâmetro ENV e o parâmetro NAME.
 
-- Sendo assim ao executar o contêiner ele irá substituir automaticamente os paramentos informados no arquivo "dockerfile"
+- Sendo assim ao executar o contêiner ele irá substituir automaticamente os parâmetros informados no arquivo "dockerfile"
 
 Passo 2: Criei o script para execução `start.sh`;
 
