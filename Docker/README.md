@@ -44,6 +44,8 @@ Passo 2: Navegue até a pasta docker: `cd Docker/`
 
 Passo 3: Dar permissão de execução ao arquivo "start.sh" - `chmod +x start.sh`;
 
+Passo 4: Execute o comando `./start.sh`
+
 Passo 5: Teste http://localhost:3000/
 
 
