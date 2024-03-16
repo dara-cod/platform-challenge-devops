@@ -9,19 +9,31 @@ Versão 1.0
   
 # Bloco 1 - Configurando o ambiente:
   
-Passo 1: Utilizei uma VM que já estava instalada e configurada no meu desktop;
+Passo 1: Utilizar uma VM ou versão linux de sua preferência.
 
-Passo 2: Utilizei a versão ubuntu para execução do desafio;
+  
 
-Passo 3: Instalei o VSCODE e instalei algumas extensão para facilitar meu trabalho;
+ - Utilizei a versão ubuntu para execução do desafio;
 
-Passo 4: Instalei e configurei o git;
+  
 
-Passo 5: Clonei o repositório para o VSCODE;
+Passo 2: Instalar o VSCODE; 
 
-Passo 6: Instalei o terraform; 
+ - Instalei algumas extensões para facilitar meu trabalho;
 
-Passo 7: Instalei uma extensão do terraform para facilitar meu trabalho;
+  
+
+Passo 3: Instalar o git;
+
+
+Passo 4: Clonar o repositório para o VSCODE;
+
+
+Passo 5: Instalar o terraform; 
+
+ - Instalei uma extensão do terraform para facilitar meu trabalho;
+
+
   
 # Bloco 2 - Execução do desafio:
 
