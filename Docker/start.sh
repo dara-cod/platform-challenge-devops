@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Caminho onde está o arquivo Dockerfile
-dockerfilePath="/home/daraildes/platform-challenge-devops/Docker"
+dockerfilePath="."
 
 # Criando imagem docker
 buildCommand="docker build -t image_bankly /home/daraildes/platform-challenge-devops/Docker"
