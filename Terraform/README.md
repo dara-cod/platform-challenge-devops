@@ -34,7 +34,7 @@ Passo 3: Criei o arquivo `terraform.tfvars` para informar os valores das variáv
 Passo 4: Criei um arquivo `variable.tf` para informar as variáveis que o arquivo `main.tf` irá usar.
 
  - [ ] Boas práticas: 
-	 - Declarei as variáveis no arquivo `main.tf;` que estão descritas no `terraform.tfvars`
+	 - Declarei as variáveis no arquivo `main.tf` que estão descritas no `terraform.tfvars`
 	 
 	 - Criei o arquivo `.gitignore` para ignorar algumas extensões utilizadas no terraform; 
 
