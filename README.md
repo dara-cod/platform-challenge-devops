@@ -1,23 +1,36 @@
-# Desafio Bankly
 
-Concluir o desafio com objetivo de treinar as suas habilidades técnicas para atuar como Devops.
+# Projeto:
 
-- [Terraform](./Terraform/README.md)
-- [Docker](./Docker/README.md)
+  
+
+> # Ferramentas:
+
+- [**Terraform**]
+
+- [**Docker**]
+
+  
+  
+# Projeto:
+
+  - [**Terraform**]:
+
+-   Criar uma instância Linux utilizando Terraform.
+    
+-   A instância deve ter aberta somente às portas 80 e 443 para todos os endereços.
+    
+-   A porta SSH (22) deve estar acessível somente para um range IP definido.
+    
+-   Inputs: A execução do projeto deve aceitar dois parâmetros:
+    
+    -   O IP ou range necessário para a liberação da porta SSH
+    -   A região da cloud em que será provisionada a instância
+-   Outputs: A execução deve imprimir o IP público da instância
 
 
-# Como entregar estes desafios
 
-Você deve realizar o fork este projeto e fazer o push no seu próprio repositório e enviar o link como resposta ao recrutador que lhe enviou o teste.
+          
+- [**Docker**]:
 
-A implementação deve ficar na pasta correspondente ao desafio. Fique à vontade para adicionar qualquer tipo de conteúdo que julgue útil ao projeto, alterar/acrescentar um README com instruções de como executá-lo, etc.
-
-Obs.:
-
-Você não deve fazer um Pull Request para este projeto!
- 
-# Extras
-
-- Descreva o processo de resolução dos desafios;
-- Descreva como utilizar a sua solução;
-- Sempre considerar melhores práticas como se fosse um ambiente de produção;
+-   Criar um script para a execução do deploy em uma única execução.
+-   Fazer com que a aplicação exiba seu nome ao invés de "Olá, candidato!"
