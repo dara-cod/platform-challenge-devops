@@ -13,7 +13,10 @@
   
 # Projeto:
 
-  - [**Terraform**]:
+
+
+
+>[**Terraform**]:
 
 -   Criar uma instância Linux utilizando Terraform.
     
@@ -27,10 +30,8 @@
     -   A região da cloud em que será provisionada a instância
 -   Outputs: A execução deve imprimir o IP público da instância
 
-
-
           
-- [**Docker**]:
+>[**Docker**]:
 
 -   Criar um script para a execução do deploy em uma única execução.
--   Fazer com que a aplicação exiba seu nome ao invés de "Olá, candidato!"
+-   Fazer com que a aplicação exiba seu nome ao invés de "Olá, candidato!".
